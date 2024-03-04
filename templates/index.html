@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Checker</title>
+</head>
+<body>
+    <h1>Symptom Checker</h1>
+    <form action="/diagnose" method="post">
+        <h2>Select Symptoms:</h2>
+        <input type="checkbox" name="symptoms" value="lump_under_arm_or_breast"> Lump Under Arm or Breast<br>
+        <input type="checkbox" name="symptoms" value="change_in_size_or_shape_of_breast"> Change in Size or Shape of Breast<br>
+        <input type="checkbox" name="symptoms" value="nipple_discharge"> Nipple Discharge<br>
+        <input type="checkbox" name="symptoms" value="nipple_turned_inward"> Nipple Turned Inward<br>
+        <input type="checkbox" name="symptoms" value="sore_around_nipple_area"> Sore Around Nipple Area<br>
+        <input type="checkbox" name="symptoms" value="skin_irritation_on_breast"> Skin Irritation on Breast<br>
+        <input type="checkbox" name="symptoms" value="constant_pain_in_breast"> Constant Pain in Breast<br>
+        <br>
+        <br>
+        <h2>Select Diagnoses/Tests:</h2>
+        <input type="checkbox" name="diagnoses" value="imaging_tests"> Imaging Tests<br>
+        <input type="checkbox" name="diagnoses" value="biopsy"> Biopsy<br>
+        <input type="checkbox" name="diagnoses" value="genomic_tests"> genomic_tests<br>
+        <input type="checkbox" name="diagnoses" value="magnetic_resonance_imaging"> magnetic_resonance_imaging<br>
+        <input type="checkbox" name="diagnoses" value="blood_tests"> blood_tests<br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
